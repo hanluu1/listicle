@@ -18,7 +18,7 @@ const renderGifts = async () => {
             name.textContent = item.name;
 
             const price = document.createElement('p');
-            price.textContent = `Price: ${item.pricePoint}`;
+            price.textContent = `Price: ${item.pricepoint}`;
 
             const link = document.createElement('a');
             link.textContent = 'Read More';

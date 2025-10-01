@@ -51,7 +51,7 @@ const renderGift = async () => {
             priceElement.id = 'pricePoint';
             detailsContainer.appendChild(priceElement);
         }
-        priceElement.textContent = gift.pricePoint;
+        priceElement.textContent = 'Price: ' + gift.pricepoint;
         priceElement.style.fontSize = '1.5rem';
         priceElement.style.fontWeight = '600';
         
